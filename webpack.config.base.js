@@ -24,12 +24,11 @@ module.exports = {
       },
       // SASS CSS STYLE LOADER
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: [
           // fallback to style-loader in development
           process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader,
-          'css-loader?sourceMap=true!',
-          'sass-loader?sourceMap=true!'
+          'css-loader?sourceMap=true!'
         ]
       },
       // IMAGE LOADER - FILE LOADER

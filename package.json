@@ -51,5 +51,8 @@
     "webpack-dev-middleware": "3.4.0",
     "webpack-hot-middleware": "2.24.3",
     "webpack-merge": "4.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1"
   }
 }

@@ -48,7 +48,7 @@
       2
     ],
     "react/jsx-max-props-per-line": 0,
-    "react/jsx-no-bind": 2,
+    "react/jsx-no-bind": 0,
     "react/jsx-no-duplicate-props": 1,
     "react/jsx-no-literals": 0,
     "react/jsx-sort-prop-types": 0,
@@ -60,7 +60,7 @@
     "react/no-did-mount-set-state": 1,
     "react/no-did-update-set-state": 1,
     "react/no-direct-mutation-state": 1,
-    "react/no-multi-comp": 1,
+    "react/no-multi-comp": 0,
     "react/no-unescaped-entities": 1,
     "react/no-unknown-property": 1,
     "react/no-unused-prop-types": 1,
